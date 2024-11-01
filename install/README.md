@@ -1,0 +1,2 @@
+###Instala o agente do Wazuh e outros componentes como Suricata, Packetbeat, Sysmon e Auditd
+O .ps1 é compativel com windows server 2016 ou superior e windows 8 ou superior. O .sh por sua vez é compativel com grande parte dos Unix like Debian based e RHEL based. O script detecta o sistema operacional e segue com a instalação dos pacotes utilziando .dpkg e .rpm, yum, dnf e apt de acordo com o SO. Em SOs mais antigos, recomenda-se usar o script como base e executar os comandos manualmente, se atentando a erros e pacotes não compatíveis.
